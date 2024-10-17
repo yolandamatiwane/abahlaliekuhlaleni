@@ -8,16 +8,19 @@
             <a class="navbar-brand" href="#">Hidden brand</a>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <router-link to="/">Home</router-link>
+                    <router-link to="/"> Home</router-link>
+                </li>
+                <!-- <li class="nav-item">
+                    <router-link to="/home"> Dummy</router-link>
+                </li> -->
+                <li class="nav-item">
+                    <a @click.prevent="$emit('scollTo','about')" href="#"> About</a>
                 </li>
                 <li class="nav-item">
-                    <router-link></router-link>
+                    <router-link to="/services"> Services</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link></router-link>
-                </li>
-                <li class="nav-item">
-                    <router-link></router-link>
+                    <a to="/contact"> Contact</a>
                 </li>
                 <li class="nav-item">
                     <router-link></router-link>
@@ -35,7 +38,7 @@
 // import router from '@/router';
 
 export default {
-    
+    name:'NavbarComp'
 }
 </script>
 <style scoped>
