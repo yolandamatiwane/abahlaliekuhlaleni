@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        about page
+        members page
     </div>
 </template>
 <script>

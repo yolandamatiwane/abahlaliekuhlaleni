@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        about page
+        gallery page
     </div>
 </template>
 <script>
