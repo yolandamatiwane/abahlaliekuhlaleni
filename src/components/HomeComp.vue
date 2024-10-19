@@ -15,7 +15,7 @@ export default {
 </script>
 <style scoped>
     .card{
-        background-image: url('https://cdn.pixabay.com/photo/2023/07/05/20/12/ai-generated-8109142_640.jpg');
+        background-image: url('https://abahloboekuhlaleni.org/wp-content/uploads/2023/05/255467698_244806844300322_5718746574384773261_n.jpg');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;

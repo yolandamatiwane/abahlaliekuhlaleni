@@ -5,34 +5,40 @@
             <div class="row">
                 <div class="col-12 col-md-4" id="img">
                     <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam odio dignissimos quod debitis maxime, consequatur blanditiis totam provident hic possimus architecto commodi sapiente odit asperiores quae vel aspernatur natus.
+                        Soup Kitchen
+                        <button class="btn btn-outline-light"> Learn More</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4" id="txt">
                     <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam odio dignissimos quod debitis maxime, consequatur blanditiis totam provident hic possimus architecto commodi sapiente odit asperiores quae vel aspernatur natus.
+                        Emotional Support
+                        <button class="btn btn-outline-light"> Learn More</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam odio dignissimos quod debitis maxime, consequatur blanditiis totam provident hic possimus architecto commodi sapiente odit asperiores quae vel aspernatur natus.
+                        Gardenining
+                        <button class="btn btn-outline-light"> Learn More</button>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 col-md-4" id="img">
                     <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam odio dignissimos quod debitis maxime, consequatur blanditiis totam provident hic possimus architecto commodi sapiente odit asperiores quae vel aspernatur natus.
+                        Making Beads
+                        <button class="btn btn-outline-light"> Learn More</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4" id="txt">
                     <div class="card">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam odio dignissimos quod debitis maxime, consequatur blanditiis totam provident hic possimus architecto commodi sapiente odit asperiores quae vel aspernatur natus.
+                        Offering Support to Schools
+                        <button class="btn btn-outline-light"> Learn More</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="card">
-                        4562Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quisquam odio dignissimos quod debitis maxime, consequatur blanditiis totam provident hic possimus architecto commodi sapiente odit asperiores quae vel aspernatur natus.
+                        Offering Support to Police Stations
+                        <button class="btn btn-outline-light"> Learn More</button>
                     </div>
                 </div>
             </div>
@@ -50,13 +56,17 @@ export default {
     padding: 20px;
 }
 .container-fluid{
-    background-color: #76B7CD;
+    background-color: #0e3f50;
+    color: white;
 }
 .card{
     height: 250px;
     margin-bottom: 20px;
-    padding: auto;
-    /* background-color: rgb(201, 144, 22); */
+    padding: 100px;
+    background-color: rgb(123, 193, 233);
+    text-align: center;
+    font-weight: 600;
+    color: white;
 }
     
 </style>

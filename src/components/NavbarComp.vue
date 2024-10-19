@@ -50,7 +50,7 @@ export default {
     font-weight: bold;
     color: #2c3e50;
     padding: 5px;
-    font-size: 24px;
+    /* font-size: 24px; */
     text-decoration: none;
     font-weight: 900;
     /* color: #76B7CD; */

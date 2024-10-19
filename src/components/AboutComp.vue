@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="container-fluid">
         <h2>        <span>"</span>Amongst our mandate to serve the community, we are compliant , reliable NPO which prides itself with restoring the pride and social fabric of its community.<span>"</span></h2>
         <div class="container-fluid text-center">
             <div class="row">
@@ -21,7 +21,7 @@ export default {
 }
 </script>
 <style scoped>
-.card{
+.container-fluid{
     min-height: 100vh;
     background-color: #76B7CD;
     padding: 50px;  
