@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg" id="navbar">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,20 +41,24 @@ export default {
 }
 </script>
 <style scoped>
-    nav {
+    #navbar {
     padding: 10px;
+    background-color: #2e68a100
     }
 
     nav a {
     font-weight: bold;
     color: #2c3e50;
     padding: 5px;
+    font-size: 24px;
     text-decoration: none;
     font-weight: 900;
+    /* color: #76B7CD; */
+    color: #76B7CD;
     }
 
     nav a.router-link-exact-active {
-    color: #42b983;
+    color: #BADBE6;
     }
     
 </style>
