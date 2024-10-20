@@ -25,7 +25,7 @@
                         
                     </form>
                 </div>
-                <div class=" col-12 col-md-5">
+                <div class=" col-12 col-md-5" id="contactInfo">
                     <h5>
                         <i class="bi bi-envelope-at"></i> email@address.com
                     </h5>
@@ -53,7 +53,7 @@ export default {
 </script>
 <style scoped>
 .container-fluid{
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(123, 193, 233);
     padding: 55px;
 }
@@ -65,5 +65,8 @@ export default {
 }
 #form{
     padding: 50px;
+}
+#contactInfo{
+    padding:100px;
 }
 </style>
