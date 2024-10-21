@@ -59,7 +59,7 @@ export default {
 }
 .container{
     background-color: #0e3f50;
-    height: 500px;
+    min-height: 500px;
     border-radius: 10px;
     color: white;
 }
@@ -68,5 +68,6 @@ export default {
 }
 #contactInfo{
     padding:100px;
+    /* color: black; */
 }
 </style>
