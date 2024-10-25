@@ -67,6 +67,27 @@ export default {
     text-align: center;
     font-weight: 600;
     color: white;
+    transition: all 0.7s ease;
+}
+.btn {
+    width: 50%;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.card:hover .btn {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
 }
     
 </style>
