@@ -1,11 +1,18 @@
+import EmotionalSupportComp from '@/components/EmotionalSupportComp.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 // import HomeView from '../views/HomeView.vue'
 
 const routes = [
+ 
   {
-    path: '/',
+    path: '/home',
     name: 'home',
     component: () => import('../components/HomeComp.vue')
+  },
+  {
+    path: '/',
+    name: 'homepage',
+    component: () => import('../views/SinglePageView.vue')
   },
   {
     path: '/about',
@@ -18,10 +25,25 @@ const routes = [
     component: () => import('../components/ServicesComp.vue')
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: () => import('../components/ContactComp.vue')
+    path: '/support',
+    name: 'support',
+    component: EmotionalSupportComp
   },
+  // {
+  //   path: '/contact',
+  //   name: 'contact',
+  //   component: () => import('../views/ContactComp.vue')
+  // },
+  // {
+  //   path: '/contact',
+  //   name: 'contact',
+  //   component: () => import('../views/ContactComp.vue')
+  // },
+  // {
+  //   path: '/contact',
+  //   name: 'contact',
+  //   component: () => import('../views/ContactComp.vue')
+  // },
   // {
   //   path: '/home',
   //   name: 'home',

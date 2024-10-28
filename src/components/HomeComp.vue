@@ -3,7 +3,7 @@
         <div class="overlay">
             <div class="card-text">
                 <h3>Welcome to</h3>
-                <h1>Organization's Name</h1>
+                <h1>Abahlali Ekuhlaleni</h1>
             </div>
         </div>
     </div>
@@ -15,13 +15,15 @@ export default {
 </script>
 <style scoped>
     .card{
-        background-image: url('https://abahloboekuhlaleni.org/wp-content/uploads/2023/05/255467698_244806844300322_5718746574384773261_n.jpg');
+        /* background-image: url('https://abahloboekuhlaleni.org/wp-content/uploads/2023/05/255467698_244806844300322_5718746574384773261_n.jpg');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: cover; */
+        /* background-color: #0066cc; */
+        background-color: #0e3f50;
         min-height: 80vh;
-        color: white;
+        color: #f0f0f0;
         border: none;
     }
     .overlay {

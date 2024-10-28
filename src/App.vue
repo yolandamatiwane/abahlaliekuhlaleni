@@ -1,15 +1,6 @@
 <template>
-  <div class="background">
-    <div class="overlay">
-      <nav-comp @click="scrollToSection"/>
-      <home-comp id="home"/>
-    </div>
-  </div>
-  <about-comp  id="about"/>
-  <services-comp id="services"/>
-  <gallery-comp id="gallery"/>
-  <members-comp id="members"/>
-  <contact-comp  id="contact"/>
+  <nav-comp @click="scrollToSection"/>
+  <router-view/>
   <div class="scroll-to-top" @click="scrollToTop">
     ↑
   </div>
@@ -17,21 +8,10 @@
 
 <script>
 import NavComp from './components/NavbarComp.vue'
-import HomeComp from './components/HomeComp.vue';
-import AboutComp from './components/AboutComp.vue';
-import ServicesComp from './components/ServicesComp.vue';
-import ContactComp from './components/ContactComp.vue';
-import MembersComp from './components/MembersComp.vue';
-import GalleryComp from './components/GalleryComp.vue';
+
 export default {
   components:{
-    NavComp,
-    HomeComp,
-    AboutComp,
-    ServicesComp,
-    ContactComp,
-    GalleryComp,
-    MembersComp
+    NavComp
   },
   methods: {
     scrollToSection(sectionId) {
@@ -57,11 +37,12 @@ export default {
       background-color: #ECF0F1;
     }
     .background{
-      background-image: url('https://abahloboekuhlaleni.org/wp-content/uploads/2023/05/255467698_244806844300322_5718746574384773261_n.jpg');
+      /* background-image: url('https://abahloboekuhlaleni.org/wp-content/uploads/2023/05/255467698_244806844300322_5718746574384773261_n.jpg');
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
+      background-size: cover; */
+      background-color: #0e3f50;
       min-height: 100vh;
         /* color: white; */
     }
