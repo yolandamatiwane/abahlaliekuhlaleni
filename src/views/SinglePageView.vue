@@ -1,7 +1,6 @@
 <template>
     <div class="background">
       <div class="overlay">
-        <!-- <nav-comp @click="scrollToSection"/> -->
         <home-comp id="home"/>
       </div>
     </div>
@@ -13,7 +12,6 @@
   </template>
   
   <script>
-//   import NavComp from '../components/NavbarComp.vue'
   import HomeComp from '../components/HomeComp.vue';
   import AboutComp from '../components/AboutComp.vue';
   import ServicesComp from '../components/ServicesComp.vue';
@@ -22,7 +20,6 @@
   import GalleryComp from '../components/GalleryComp.vue';
   export default {
     components:{
-    //   NavComp,
       HomeComp,
       AboutComp,
       ServicesComp,

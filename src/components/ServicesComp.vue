@@ -7,7 +7,9 @@
           <div class="card" id="soup">
             <div class="background">
               <h5>Soup Kitchen</h5>
-              <a class="btn btn-outline-light"> Learn More</a>
+              <router-link to="/support" class="btn btn-outline-light" href="#">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -16,8 +18,8 @@
             <div class="background">
               <h5>Emotional Support</h5>
               <router-link to="/support" class="btn btn-outline-light" href="#">
-                Learn More</router-link
-              >
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -25,7 +27,9 @@
           <div class="card" id="gardening">
             <div class="background">
               <h5>Gardening</h5>
-              <a class="btn btn-outline-light"> Learn More</a>
+              <router-link to="/support" class="btn btn-outline-light" href="#">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -35,7 +39,9 @@
           <div class="card" id="beads">
             <div class="background">
               <h5>Making Beads</h5>
-              <a class="btn btn-outline-light"> Learn More</a>
+              <router-link to="/support" class="btn btn-outline-light" href="#">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -43,7 +49,9 @@
           <div class="card" id="schools">
             <div class="background">
               <h5>Offering Support to Schools</h5>
-              <a class="btn btn-outline-light"> Learn More</a>
+              <router-link to="/support" class="btn btn-outline-light" href="#">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -51,7 +59,9 @@
           <div class="card" id="police">
             <div class="background">
               <h5>Offering Support to Police Stations</h5>
-              <a class="btn btn-outline-light"> Learn More</a>
+              <router-link to="/support" class="btn btn-outline-light" href="#">
+                Learn More
+              </router-link>
             </div>
           </div>
         </div>
@@ -61,12 +71,8 @@
 </template>
 <script>
 export default {
-  methods: {
-    navigateToSupport() {
-      this.$router.push("/support");
-    },
-  },
-};
+
+}
 </script>
 <style scoped>
 /* #servicesDiv{

@@ -8,7 +8,7 @@
             <a class="navbar-brand" href="#">Hidden brand</a>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a href="#home"> Home</a>
+                    <router-link :to="{path: '/', hash:'#home'}"> Home</router-link>
                 </li>
                 <li class="nav-item">
                     <a href="#about"> About Us</a>
