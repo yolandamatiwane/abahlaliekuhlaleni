@@ -41,20 +41,17 @@ export default {
 }
 </script>
 <style scoped>
-    #navbar {
-    padding: 10px;
-    background-color: #2e68a100
+    nav{
+        background-color: #5A6B5D;
+        /* background-color: #008080; */
     }
-
     nav a {
     font-weight: bold;
-    color: #2c3e50;
-    padding: 5px;
+    color: #E1E1E1;
+    padding: 8px;
     font-size: 18px;
     text-decoration: none;
     font-weight: 900;
-    /* color: #76B7CD; */
-    color: #f0f0f0;
     }
 
     nav a.link-exact-active {
