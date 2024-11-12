@@ -1,9 +1,5 @@
 <template>
-    <div class="background">
-      <div class="overlay">
-        <home-comp id="home"/>
-      </div>
-    </div>
+    <home-comp id="home"/>
     <about-comp  id="about"/>
     <services-comp id="services"/>
     <gallery-comp id="gallery"/>

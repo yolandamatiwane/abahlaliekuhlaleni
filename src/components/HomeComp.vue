@@ -14,9 +14,14 @@ export default {
 </script>
 <style scoped>
     .container-fluid{
-        padding-top: 40px;
+        /* padding: 40px; */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
         /* background-image: url('https://media.istockphoto.com/id/1393578696/vector/profile-silhouettes-of-african-americans.jpg?s=612x612&w=0&k=20&c=WZgdC9IeX2lvRttOOyHGGCveL16b7l-AEjuzxksEdxg='); */
-        background-image: url('https://img.freepik.com/premium-vector/group-portrait-black-people-african-american-men-women-black-history-month-cartoon-flat_637281-1450.jpg');
+        /* background-image: url('https://img.freepik.com/premium-vector/group-portrait-black-people-african-american-men-women-black-history-month-cartoon-flat_637281-1450.jpg'); */
+        background-image: url('https://raw.githubusercontent.com/yolandamatiwane/personalProjectImages/refs/heads/master/c912279c-5eee-4c0e-9c66-91dbe6d399a2.webp');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
@@ -27,31 +32,33 @@ export default {
         color: #f0f0f0;
         border: none;
     }
-    .overlay::before{
+    .overlay{
+        background-color: #5a6b5dce;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+        width: 100%;
+    }
+    /* .overlay::before{
         content: '';
         position: absolute;
-        /* margin-top: 90px; */
         height: calc(100% - 80px);
         top: 0;
         left: 0;
         width: 100%;
-        /* height: 100%; */
-        background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity as needed */
-        transform: skewY(-40deg); /* Adjust the angle as needed */
+        height: 100vh;
+        background-color: #5a6b5d8c;
+        transform: skewY(-23deg); 
         transform-origin: top left;
         z-index: 1;
-    }
-    /* .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.468);
     } */
     .card-text{
         text-align: center;
-        padding-top: 250px;
+        justify-content: center;
+        padding: 150px;
+        /* padding-top: 250px; */
     }
     h1{
         font-size: 80px;

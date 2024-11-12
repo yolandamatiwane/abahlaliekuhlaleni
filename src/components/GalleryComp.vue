@@ -4,10 +4,10 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <div class="card" id="smCards">
+                    <div class="card" id="smCard1">
                         image 1
                     </div>
-                    <div class="card" id="smCards">
+                    <div class="card" id="smCard2">
                         image 2
                     </div>
                 </div>
@@ -17,10 +17,10 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
-                    <div class="card" id="smCards">
+                    <div class="card" id="smCard3">
                         image 4
                     </div>
-                    <div class="card" id="smCards">
+                    <div class="card" id="smCard4">
                         image 5
                     </div>
                 </div>
@@ -47,9 +47,15 @@ export default {
     justify-content: center;
     color: white;
 }
-#smCards{
+#smCard1, #smCard2,#smCard3, #smCard4{
     height: 223px;
     margin-bottom: 25px;
+}
+#smCard1{
+    background-image: url('https://yolandamatiwane.github.io/personalProjectImages/WhatsApp%20Image%202024-10-12%20at%2014.21.54.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #bgCards{
     height: 470px;
