@@ -21,18 +21,18 @@ export default {
         
         /* background-image: url('https://media.istockphoto.com/id/1393578696/vector/profile-silhouettes-of-african-americans.jpg?s=612x612&w=0&k=20&c=WZgdC9IeX2lvRttOOyHGGCveL16b7l-AEjuzxksEdxg='); */
         /* background-image: url('https://img.freepik.com/premium-vector/group-portrait-black-people-african-american-men-women-black-history-month-cartoon-flat_637281-1450.jpg'); */
-        background-image: url('https://raw.githubusercontent.com/yolandamatiwane/personalProjectImages/refs/heads/master/c912279c-5eee-4c0e-9c66-91dbe6d399a2.webp');
+        /* background-image: url('https://raw.githubusercontent.com/yolandamatiwane/personalProjectImages/refs/heads/master/c912279c-5eee-4c0e-9c66-91dbe6d399a2.webp'); */
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-       /* background-color: #0066cc;
-        background-color: #0e3f50; */
+       /* background-color: #0066cc; */
+        background-color: #0e3f50;
         min-height: 100vh;
         color: #f0f0f0;
         border: none;
     }
-    .overlay{
+    /* .overlay{
         background-color: #5a6b5dce;
         display: flex;
         flex-direction: column;
@@ -40,7 +40,7 @@ export default {
         justify-content: center;
         height: 300px;
         width: 100%;
-    }
+    } */
     /* .overlay::before{
         content: '';
         position: absolute;
