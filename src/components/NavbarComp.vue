@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">Hidden brand</a>
+            <a class="navbar-brand" href="#"><img src="https://yolandamatiwane.github.io/personalProjectImages/editedLogo_processed.jpg"></a>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <router-link :to="{path: '/', hash:'#home'}"> Home</router-link>
@@ -42,20 +42,24 @@ export default {
 </script>
 <style scoped>
     nav{
-        background-color: #5A6B5D;
-        /* background-color: #008080; */
+        background-color: #29c1e3;
+        /* background-color: rgb(72, 72, 72); */
+    }
+    img{
+        width:200px;
+        height: 60px;
     }
     nav a {
-    font-weight: bold;
-    color: #E1E1E1;
-    padding: 8px;
-    font-size: 18px;
-    text-decoration: none;
-    font-weight: 900;
+        font-weight: bold;
+        color:  #EDECEC;
+        padding: 8px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 900;
     }
 
     nav a.link-exact-active {
-    color: #BADBE6;
+        color: #BADBE6; 
     }
     
 </style>

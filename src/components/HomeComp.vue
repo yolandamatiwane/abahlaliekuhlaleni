@@ -1,8 +1,15 @@
 <template>
     <div class="container-fluid">
-        <div class="overlay">
-            <div class="card-text">
+        <div class="row">
+            <div class="col-8">
                 <h2>Welcome to Abahlali Ekuhlaleni – Empowering Our Community Together</h2>
+                 <!-- <img src="https://yolandamatiwane.github.io/personalProjectImages/stock-photo-unity-and-diversity-partnership-as-heart-hands-in-a-group-of-diverse-people-connected-together-1532068016_processed.jpg"> -->
+
+            </div>
+            <div class="col-4" id="image">
+                <!-- <h2>Welcome to Abahlali Ekuhlaleni – Empowering Our Community Together</h2> -->
+                 <!-- <img src="https://yolandamatiwane.github.io/personalProjectImages/Yolas_Banner.png"> -->
+
             </div>
         </div>
     </div>
@@ -22,38 +29,36 @@ export default {
         /* background-image: url('https://media.istockphoto.com/id/1393578696/vector/profile-silhouettes-of-african-americans.jpg?s=612x612&w=0&k=20&c=WZgdC9IeX2lvRttOOyHGGCveL16b7l-AEjuzxksEdxg='); */
         /* background-image: url('https://img.freepik.com/premium-vector/group-portrait-black-people-african-american-men-women-black-history-month-cartoon-flat_637281-1450.jpg'); */
         /* background-image: url('https://raw.githubusercontent.com/yolandamatiwane/personalProjectImages/refs/heads/master/c912279c-5eee-4c0e-9c66-91dbe6d399a2.webp'); */
-        background-attachment: fixed;
-        background-repeat: no-repeat;
+        /* background-image: url('https://yolandamatiwane.github.io/personalProjectImages/potentialLandingBgBurn.jpg'); */
+        /* background-attachment: fixed; */
+        /* background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: cover; */
        /* background-color: #0066cc; */
-        background-color: #0e3f50;
+        background-color: #EDECEC;
         min-height: 100vh;
-        color: #f0f0f0;
+        /* color: #f0f0f0; */
         border: none;
     }
-    /* .overlay{
-        background-color: #5a6b5dce;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 300px;
-        width: 100%;
+    .row{
+        height:500px;
+    }
+    /* img{
+        width: 490px;
+        height: 500px;
+
     } */
-    /* .overlay::before{
-        content: '';
-        position: absolute;
-        height: calc(100% - 80px);
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: #5a6b5d8c;
-        transform: skewY(-23deg); 
-        transform-origin: top left;
-        z-index: 1;
-    } */
+     #image{
+        /* width:100%; */
+        width: 490px;
+        height: 500px;
+        background-image: url('https://yolandamatiwane.github.io/personalProjectImages/Yolas_Banner.png');
+        /* background-attachment: fixed; */
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        background-size: cover;
+     }
+
     .card-text{
         text-align: center;
         justify-content: center;
@@ -66,5 +71,4 @@ export default {
     h3{
         font-size: 50px;
     }
-    
 </style>
